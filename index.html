@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - saif-lab-6</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+  </head>
+  <body>
+    <div class="wrapper" id="myDiv">
+      <br/>
+        <div id="robotSpeech">Hi there, do you like Minions?</div> 
+        <div id="answer"></div>
+        <svg id="faceSVG" onmousemove="handleMouseMove(event)">
+          <circle id="leftOutline" cx="30%" cy="50%" r=75 fill="gray"> </circle>
+          <circle id="leftEye" cx="30%" cy="50%" r=50 fill="white"> </circle>
+          <circle id="leftPupil" cx="30%" cy="50%" r=25 fill="black"> </circle>
+          <circle id="rightOutline" cx="70%" cy="50%" r=75 fill="gray"> </circle>
+          <circle id="rightEye" cx="70%" cy="50%" r=50 fill="white"> </circle>
+          <circle id="rightPupil" cx="70%" cy="50%" r=25 fill="black"> </cirlce>
+        </svg>
+      <p id = "helpertext">Click anywhere to respond</p>
+    </div>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

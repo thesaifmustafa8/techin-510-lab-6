@@ -1,0 +1,33 @@
+*{
+  font-family: Helvetica;
+  font-size: 32px;
+  margin: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: yellow;
+}
+
+div.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+svg {
+ height: 100%; 
+ width: 100%;
+ position: absolute;
+}
+
+#helpertext {
+  font-size: 12px;
+  top: 0;
+  position: fixed;
+}
